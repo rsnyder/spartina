@@ -4,6 +4,8 @@ description: "Interactive map showing all community facilities and amenities."
 date: 2025-09-21
 permalink: /maps/facilities
 layout: map-post
+categories: [Maps]
+tags: [facilities, map]
 ---
 
 # Facilities
