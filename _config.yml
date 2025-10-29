@@ -16,10 +16,10 @@ timezone:
 
 title: Spartina # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Always adjusting — exploring tech and craft # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Exploring technology and craft through curiosity, iteration, and adaptation.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -170,6 +170,12 @@ collections:
   tabs:
     output: true
     sort_by: order
+  maps:
+    output: true
+    sort_by: date
+    title: "Maps"
+    description: "Interactive maps and location guides"
+    permalink: /maps/:name/
 
 defaults:
   - scope:

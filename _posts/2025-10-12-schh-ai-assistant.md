@@ -3,9 +3,9 @@ title: The SCHH AI Assistant
 description: The SCHH Commons Knowledge Base is a growing collection of resources about life in Sun City Hilton Head, accessible through the Notebook LM AI tool.
 author: ron
 date: 2025-10-12
-categories: [Announcements, AI]
+categories: [AI]
 permalink: /chatbot
-tags: [SCHH Commons, AI tools, Knowledge base, Community resources, Sun City Hilton Head]
+tags: [schh, ai]
 image: /assets/img/ai-assistant.jpg
 published: true
 pin: true
@@ -119,7 +119,7 @@ The Assistant is **powered by Notebook LM**, one of the most advanced AI languag
 
 ---
 
-# The Knowledge Base
+## The Knowledge Base
 {: #knowledge-base}
 
 The **Knowledge Base** is the foundation of the SCHH AI Assistant. It brings together a growing collection of documents, guides, and resources that help residents better understand life in Sun City Hilton Head.
