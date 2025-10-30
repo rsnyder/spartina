@@ -1,10 +1,10 @@
 ---
 title: The SCHH AI Assistant
-description: The SCHH Commons Knowledge Base is a growing collection of resources about life in Sun City Hilton Head, accessible through the Notebook LM AI tool.
+description: The SCHH Knowledge Base is a growing collection of resources about life in Sun City Hilton Head, accessible through the Notebook LM AI tool.
 author: ron
 date: 2025-10-12
 categories: [AI]
-permalink: /chatbot
+permalink: /schh-ai-assistant
 tags: [schh, ai]
 image: /assets/img/ai-assistant.jpg
 published: true
@@ -98,7 +98,7 @@ lightbox: false
 
 </style>
 
-Welcome to the **SCHH AI Assistant** — a friendly, experimental tool created to help Sun City Hilton Head residents (and future neighbors) quickly find the information that matters most. Instead of digging through websites, newsletters, or emails, you can simply **ask questions in plain language** and get helpful answers drawn from reliable community sources. It’s like having a knowledgeable neighbor who’s always ready to help you learn more about life in Sun City.
+Welcome to the **SCHH AI Assistant** — a friendly, experimental tool created to help Sun City Hilton Head residents quickly find the information that matters most. Instead of digging through websites, PDFs, or newsletters, you can simply **ask questions in plain language** and get helpful answers drawn from reliable community sources. It’s like having a knowledgeable neighbor who’s always ready to help you learn more about life in Sun City.
 
 ---
 
@@ -110,11 +110,11 @@ Welcome to the **SCHH AI Assistant** — a friendly, experimental tool created t
 
 ---
 
-The SCHH AI Assistant helps residents and prospective residents easily find and understand information about life in Sun City Hilton Head. It draws on a growing collection of community resources—official documents, SunSations articles, SCTV broadcasts, and more—to provide clear, conversational answers to your questions.
+The SCHH AI Assistant helps residents easily find and understand information about life in Sun City Hilton Head. It draws on a growing collection of community resources—official documents, SunSations articles, SCTV broadcasts, and more—to provide clear, conversational answers to your questions.
 
-The Assistant is **powered by Notebook LM**, one of the most advanced AI language models available. Notebook LM connects the Assistant to the SCHH Commons Knowledge Base, allowing it to understand questions, retrieve relevant information from curated Sun City materials, and respond in a friendly, natural way.
+The AI Assistant is **powered by NotebookLM**, Google's advanced AI tool designed to work with specific source materials. Unlike general AI chatbots, NotebookLM grounds its responses in documents you provide—in this case, the SCHH Knowledge Base. This means the Assistant understands questions about Sun City Hilton Head, retrieves relevant information from curated community materials, and responds in a friendly, natural way—all while staying anchored to accurate, source-based information rather than general internet knowledge.
 
-> **Note:** *The SCHH AI Assistant is a resident-initiated, community-driven project and is not affiliated with the developer or any official Sun City Hilton Head organization. The tools and resources hosted on the [SCHH Commons](https://www.schh-commons.org) website are provided to help residents more easily find, understand, and use community information.*
+> **Note:** *The SCHH AI Assistant is a resident-initiated, community-driven project and is not affiliated with the developer or any official Sun City Hilton Head organization. The tools and resources hosted on the [Spartina.io](https://www.spartina.io) website are provided to help residents more easily find, understand, and use community information.*
 {: .prompt-info }
 
 ---
@@ -136,7 +136,7 @@ Sources include:
 
 
 > **Important Note:** *The SCHH Knowledge Base isn’t meant to replace official Sun City websites, association documents, or other authoritative sources. Those remain the final word for community rules, policies, and updates. Instead, the Knowledge Base and AI Assistant serves as a helpful companion to those sources—an added layer that makes it easier to locate, connect, and understand information that matters to residents.*
-{: .prompt-warning }
+{: .prompt-info }
 
 ---
 

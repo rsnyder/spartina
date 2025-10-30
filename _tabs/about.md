@@ -4,75 +4,61 @@ icon: fas fa-info-circle
 order: 6
 published: true
 permalink: /about
+layout: default
 toc: false
 ---
 
-## Making Sun City Information Easier to Find and Use
+## Welcome to Spartina
 
-When I first arrived in Sun City, I was surprised by how hard it could be to find certain kinds of information. Important details are scattered across many places—the Sun City website (both public and resident-only pages), the *SunSations* magazine, the Clubs and Groups Catalog, numerous PDFs in the Association Community Library, SCTV broadcasts, and the many emails that arrive throughout the month. Much of this information isn’t searchable or presented in a way that’s easy to explore.
+**Spartina** is my digital workbench—a place for exploring AI, emerging technologies, and hands-on making. Like the resilient coastal grass it's named for, this blog thrives at the intersections: where software meets hardware, theory meets practice, and curiosity leads to experimentation.
 
-There’s also a lot of valuable, practical knowledge that isn’t found in those official sources—things like trusted local recommendations, resident-suggested vendors, updates on municipal decisions, and plans for nearby development or road projects that affect Sun City. The idea behind SCHH Commons is simple: bring all of these pieces together in one friendly, easy-to-use place so residents can quickly find what they need.
+I'm interested in what happens when you take new tools—AI models, development platforms, open-source projects—and actually build something with them. Not just conceptual discussions, but real implementations, working prototypes, and the messy process of learning by doing.
 
-The **SCHH Commons Knowledge Base** isn’t meant to replace official Sun City websites, association documents, or other authoritative sources. Those remain the final word for community rules, policies, and updates. Instead, the Commons serves as a helpful companion to those sources—an added layer that makes it easier to locate, connect, and understand information that matters to residents.
-
-The **SCHH Commons Knowledge Base** and its **AI Assistant (chatbot)** were created to make that process even simpler. Just type a question—like you would when chatting with a friend—and the assistant provides clear, summarized answers drawn from a growing collection of trusted community sources.
-
-The Assistant is **powered by Chatbase**, a platform that uses **ChatGPT**—one of the most advanced AI language models available—to deliver conversational answers based on the Knowledge Base. Chatbase allows the Assistant to understand questions, retrieve relevant information from the curated Sun City documents, and respond in a friendly, natural way. In short, Chatbase provides the technology “engine” that makes the SCHH AI Assistant possible, enabling residents to explore community information easily through everyday conversation.
-
-The Knowledge Base currently includes most documents related to community governance and lifestyle. You can view the full list on the **[AI Assistant](/chatbot#knowledge-base)** page. Residents are encouraged to report any errors they find and to suggest—or even contribute—new information to keep the collection growing and accurate. Over time, it will expand to include more about the surrounding area, covering local services, attractions, and civic updates that matter to Sun City residents.
+You'll find projects here ranging from practical applications to experimental explorations: AI assistants trained on specific knowledge bases, automation tools, DIY electronics, and whatever else catches my attention at the edges of what's possible.
 
 ---
 
-## Who I Am and Why I Started SCHH Commons
+## Featured Project: SCHH Commons AI Assistant
 
-My name is Ron Snyder, and like many new residents, I spent my first few months here trying to figure out where to find things—who to ask, which website to visit, which document had the latest update. With my background in technology, research, and community projects, I soon discovered there was a chance to make this process easier for everyone.
+One of my main projects is the **[SCHH Commons AI Assistant](/schh-ai-assistant)**, a specialized tool I built for Sun City Hilton Head residents. It demonstrates what's possible when you combine AI, information architecture, and user-centered design to solve real problems.
 
-I’m a veteran, having served ten years in the U.S. Air Force, followed by twenty years in the defense industry. After that, I spent nearly two decades in research and development in the non-profit academic world, leading AI and information projects that helped scholars and institutions share knowledge more effectively.
+The project centers on an **AI Assistant powered by NotebookLM**—Google's document-grounded AI tool—connected to a curated knowledge base of community documents. Instead of residents hunting through scattered PDFs, websites, and newsletters, they can simply ask questions in natural language and get accurate answers drawn from official sources.
 
-When I moved to Sun City Hilton Head, I noticed right away how these same skills could benefit our community—using technology to help residents connect with one another and with the information that matters most to daily life here. That’s how SCHH Commons began: a simple, resident-driven effort to make community knowledge easier to find, share, and use.
+The **Knowledge Base** includes governance documents, lifestyle information, club resources, and other materials relevant to the community. It's continuously expanding based on resident feedback and needs.
 
-Today, the **Knowledge Base** and **AI Assistant** are at the heart of SCHH Commons, but they’re just the beginning. Other features are in development—like a consolidated events calendar, interactive maps, podcasts, and “Deep Dive” articles exploring topics of special interest to residents.
-
-My hope is that SCHH Commons continues to grow as a shared community resource—built by residents, for residents.
+This is a working example of how AI can make information more accessible without replacing authoritative sources—it augments rather than replaces, making existing knowledge easier to find and understand. I'll be writing more about the technical implementation, challenges, and lessons learned as the project evolves.
 
 ---
 
-## What is a “Commons”?
+## Background
 
-A **commons** is something shared and cared for by a community. In the past, it referred to open land—fields or pastures everyone could use. Today, the idea extends to shared knowledge, digital tools, and spaces where people collaborate for the common good.
+I'm **Ron Snyder**, a veteran and technologist with a background that spans defense work, non-profit research, and community-focused projects. I spent ten years in the U.S. Air Force, twenty years in the defense industry, and nearly two decades in academic R&D—leading AI and information projects that helped institutions share knowledge more effectively.
 
-**SCHH Commons** carries that spirit forward by gathering useful information, technology, and resources in one place—organized and shared for everyone’s benefit. It’s about making knowledge easier to reach and encouraging residents to help one another through shared experience and insight.
-
----
-
-## Try It Out and Get Involved
-
-Give it a try and see what you think! The AI Assistant is designed to be easy and safe to use—even if you’ve never used anything like it before. If you’ve tried ChatGPT, Gemini, or Copilot, the experience will feel familiar and friendly. Just type your question, and the chatbot will do its best to help.
-
-You can start using the SCHH Commons AI Assistant today—it’s approachable, conversational, and always available to answer questions about Sun City Hilton Head. 
-<!-- If you find it helpful, please consider **sharing feedback**, **suggesting improvements**, or **[supporting the site](/support)** so it can continue to grow. -->
-
-Feedback and suggestions can be sent through the [Contact form](/contact) on the Commons website. And if you like what you see, please tell your neighbors and club members—the more people who use it, the better it becomes for everyone.
-
-While the chatbots are designed to be intuitive, sometimes a quick demo helps. I’m happy to provide group presentations for clubs or neighborhood groups who want to learn more. To request one, just use the [Contact form](/contact) on the Commons website.
-
-Here are a few sample prompts to try:
-
-- “Brief me on recent community news and upcoming events.”
-- “What’s happening this week in Sun City Hilton Head?”
-- “Summarize the latest SunSations issue.”
-- “What’s the process for submitting a modification request?”
+Now, in what some might call retirement, I'm focused on building things that interest me and solving problems I encounter in my own community. The skills are the same—research, development, systems thinking—but the application is more personal and immediate.
 
 ---
 
-<!--
-### Support the Commons
+## What You'll Find Here
 
-SCHH Commons will always be free to use, but it does take resources to keep it running—hosting, AI services, and maintenance. If you find the site useful, please consider a [small donation](/support) to help cover these costs and keep the project growing. Your encouragement and support mean a lot and help keep this community effort moving forward.
+**Project updates and builds** - Documentation of things I'm making, from AI experiments to DIY projects
+
+**Technical explorations** - Deep dives into tools, platforms, and technologies worth understanding
+
+**Research and investigations** - Using AI research tools and traditional methods to dig into questions that matter—from persistent community rumors to understanding complex topics. Consolidated findings shared so others don't have to do the same digging.
+
+**Lessons learned** - What works, what doesn't, and why—shared so others can learn from my mistakes
+
+**Process and methodology** - How I approach problems, research solutions, and iterate on ideas
+
+This isn't a tutorial site or a news aggregator. It's a working notebook for someone learning in public, building at the edges of emerging technology, and documenting the journey.
 
 ---
 
--->
+## Get in Touch
 
-> *SCHH Commons is a resident-initiated, community-driven project and is not affiliated with the developer or any official Sun City Hilton Head organization. The tools and resources are provided to help residents more easily find, understand, and use community information.*
+If something here sparks an idea, raises a question, or connects to work you're doing, I'd enjoy hearing from you. Use the **[contact form](/contact)**.
+
+Thanks for stopping by.
+
+> *Spartina.io is a personal project and independent blog. Opinions and experiments shared here are my own.*
 {: .prompt-info}

@@ -63,9 +63,9 @@ permalink: /contact
     }
 </style>
 
-Contact me at [admin@schh-commons.org](mailto:admin@schh-commons.org) or use the form below.
+Contact me at [admin@schh-commons.org](mailto:ron@snyderjr.com) or use the form below.
 
-<form class="contact-form" action="https://formsubmit.co/admin@schh-commons.org" method="POST">
+<form class="contact-form" action="https://formsubmit.co/ron@snyderjr.com" method="POST">
   <label for="name">Name</label>
   <input id="name" type="text" name="name" required>
 
@@ -77,7 +77,7 @@ Contact me at [admin@schh-commons.org](mailto:admin@schh-commons.org) or use the
 
   <!-- hidden options -->
   <input type="hidden" name="_subject" value="Website contact form">
-  <input type="hidden" name="_next" value="https://www.schh-commons.org/thanks">
+  <input type="hidden" name="_next" value="https://www.spartina.io/thanks">
   <input type="text" name="_honey" style="display:none">
   <input type="hidden" name="_captcha" value="false">
 

@@ -16,10 +16,10 @@ timezone:
 
 title: Spartina # the main title
 
-tagline: Always adjusting — exploring tech and craft # it will display as the subtitle
+tagline: Exploring the edges # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Exploring technology and craft through curiosity, iteration, and adaptation.
+  Experiments in AI, technology, and DIY projects. A digital workbench for building, learning, and exploring what's possible.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
