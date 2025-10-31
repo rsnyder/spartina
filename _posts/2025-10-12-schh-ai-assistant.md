@@ -171,7 +171,7 @@ The tables below list the documents currently included in the Knowledge Base, ea
   dialog.appendChild(markdownEl);
   document.body.appendChild(dialog);
 
-  fetch('https://www.schh-commons.org/knowledge-base/index.md')
+  fetch('https://raw.githubusercontent.com/SCHH-Commons/knowledge-base/main/index.md')
   .then(resp => resp.text())
   .then(md => {
       let docsEl = document.getElementById('docs');
@@ -180,7 +180,7 @@ The tables below list the documents currently included in the Knowledge Base, ea
   })
   .then(docsEl => {
       docsEl.querySelectorAll('a').forEach(a => {
-        if (a.href.indexOf('https://www.schh-commons.org/knowledge-base') === 0) {
+        if (a.href.indexOf('https://raw.githubusercontent.com/SCHH-Commons/knowledge-base/main/index.md') === 0) {
           a.addEventListener('click', (e) => {
             e.preventDefault();
             e.stopPropagation();
