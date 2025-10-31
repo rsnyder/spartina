@@ -2,7 +2,7 @@
 title: The SCHH AI Assistant
 description: The SCHH Knowledge Base is a growing collection of resources about life in Sun City Hilton Head, accessible through the Notebook LM AI tool.
 author: ron
-date: 2025-10-12
+date: 2025-10-01
 categories: [AI]
 permalink: /schh-ai-assistant
 tags: [schh, ai]
