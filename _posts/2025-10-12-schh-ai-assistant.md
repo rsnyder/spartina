@@ -154,7 +154,7 @@ The SCHH AI Assistant is currently in a pilot phase and continues to evolve as n
 
 The tables below list the documents currently included in the Knowledge Base, each with a link to its source.  (*Viewing resident-only pages or Library materials will require logging into the official Sun City website*)
 
-<section id="docs"></docs>
+<section id="docs"></section>
 
 
 <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
