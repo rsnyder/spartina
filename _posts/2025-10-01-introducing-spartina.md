@@ -5,7 +5,7 @@ author: ron
 date: 2025-10-01
 categories: []
 tags: []
-image: /assets/img/Spartina_alterniflora.jpg
+image: /assets/img/spartina-post-image.jpg
 published: true
 pin: true
 lightbox: false
