@@ -55,14 +55,14 @@ I tested four approaches, each with different trade-offs:
 
 **Cons:**
 
-- Requires ChatGPT Plus to create a Custom GPT ($20/month for the creator)
+- Not embeddable, users are taken to the ChatGPT site and are required to login with an OpenAI (ChatGPT) account
 - Limited control over how it searches and retrieves information
 - Citations are inconsistent—sometimes it references sources, sometimes it doesn't
 - Can't customize the interface or embed it elsewhere easily
 - Limited document capacity
 - Free users have message limits and get switched to GPT-3.5 once they hit GPT-4o caps
 
-**Why I moved on:** The inconsistent citations were the main issue—I needed reliable, prominent source attribution. A**dditionally, while free users could access the GPT, I'd still need to maintain a Plus subscription as the creator, and I wasn't confident the citation behavior would improve. The lack of control over the retrieval and citation logic made it hard to ensure responses would consistently point back to source documents.
+**Why I moved on:** The inconsistent citations were the main issue—I needed reliable, prominent source attribution. A**dditionally, while users could access the GPT for free, I'd still need to maintain a Plus subscription as the creator, and I wasn't confident the citation behavior would improve. The lack of control over the retrieval and citation logic made it hard to ensure responses would consistently point back to source documents.
 
 ### 3. Chatbase
 
@@ -76,7 +76,7 @@ I tested four approaches, each with different trade-offs:
 - Includes analytics and conversation tracking
 
 **Cons:**
-- Monthly subscription required (starts around $40/month for meaningful usage and quickly ramps up)
+- Monthly subscription required (starts around $40/month for meaningful usage and quickly ramps up with usage)
 - Limited control over the retrieval and response logic
 - Citations exist but are less prominent than I wanted
 - Felt like a black box—hard to understand *why* it gave certain answers
