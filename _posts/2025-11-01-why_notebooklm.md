@@ -5,7 +5,7 @@ author: ron
 date: 2025-11-01
 categories: [ai, notebooklm]
 tags: [schh, ai, notebooklm]
-media_subpath: https://raw.githubusercontent.com/rsnyder/rsnyder.github.io/main/assets/img
+media_subpath: /assets/img
 image: notebooklm.jpg
 published: true
 lightbox: false

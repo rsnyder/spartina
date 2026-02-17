@@ -6,7 +6,7 @@ date: 2026-02-03
 layout: post
 categories: [ digital archiving, scanning ]
 tags: [ digital archiving ]
-media_subpath: https://raw.githubusercontent.com/rsnyder/rsnyder.github.io/main/assets/posts/pda
+media_subpath: /assets/posts/pda
 image: header.jpg
 include_header_image: true
 published: true

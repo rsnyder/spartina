@@ -5,7 +5,7 @@ author: ron
 date: 2025-10-01
 categories: []
 tags: []
-media_subpath: https://raw.githubusercontent.com/rsnyder/rsnyder.github.io/main/assets/img
+media_subpath: /assets/img
 image: spartina-post-image.jpg
 published: true
 pin: true

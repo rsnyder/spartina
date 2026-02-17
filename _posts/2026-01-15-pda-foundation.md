@@ -6,7 +6,7 @@ date: 2026-01-15
 layout: post
 categories: [ digital archiving, backups ]
 tags: [ digital archiving ]
-media_subpath: https://raw.githubusercontent.com/rsnyder/rsnyder.github.io/main/assets/posts/pda-foundation
+media_subpath: /assets/posts/pda-foundation
 image: 
     path: header.jpg
     resize: false

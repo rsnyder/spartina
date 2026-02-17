@@ -7,7 +7,7 @@ layout: post
 categories: [ digital archiving, photos ]
 tags: [ photo digitization, ai ]
 media_subpath: /assets/image-compositing
-media_subpath: https://raw.githubusercontent.com/rsnyder/rsnyder.github.io/main/assets/posts/image-compositing
+media_subpath: /assets/posts/image-compositing
 image: thumbnail.png
 include_header_image: true
 published: true

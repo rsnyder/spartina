@@ -6,7 +6,7 @@ date: 2025-10-02
 categories: [ai, notebooklm]
 permalink: /schh-ai-assistant
 tags: [schh, ai, notebooklm]
-media_subpath: https://raw.githubusercontent.com/rsnyder/rsnyder.github.io/main/assets/img
+media_subpath: /assets/img
 image: ai-assistant.jpg
 published: true
 pin: true

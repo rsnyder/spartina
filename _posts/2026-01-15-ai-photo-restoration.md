@@ -6,7 +6,7 @@ date: 2026-01-15
 layout: post
 categories: [ digital archiving, photos ]
 tags: [ photo restoration, ai ]
-media_subpath: https://raw.githubusercontent.com/rsnyder/rsnyder.github.io/main/assets/posts/ai-photo-restoration
+media_subpath: /assets/posts/ai-photo-restoration
 image: RDS-cropped.jpeg
 include_header_image: false
 published: true
