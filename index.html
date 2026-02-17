@@ -1,4 +1,31 @@
 ---
-layout: juncture-home
-# Index page
+layout: home
+banner: 
 ---
+
+{% if paginator and paginator.page == 1 %}
+
+<style>
+    .banner {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+</style>
+
+{% if page.banner == 1 %}
+<div
+  class="banner"
+  style="background-image: url('{{ page.banner | relative_url }}');">
+</div>
+{% endif %}
+
+<h1>Welcome to Spartina.io!</h1>
+
+Spartina is an experimental space focused on exploring artificial intelligence and emerging technologies through hands-on use. Much of what you’ll find here reflects work in progress—ideas being tested, tools being tried, and approaches being evaluated in real time. The emphasis is less on finished answers and more on understanding what these technologies can (and can’t) do when put to practical use.
+
+{% include featured_posts.html %}
+
+{% endif %}
