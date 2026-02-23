@@ -26,10 +26,10 @@ description: >- # used by seo meta and the atom feed
 url: https://www.spartina.io # the base hostname & protocol for your site
 
 github:
-  username: rsnyder # change to your GitHub username
+  username: # change to your GitHub username
 
 twitter:
-  username: rdsnyderjr # change to your Twitter username
+  username: # change to your Twitter username
 
 social:
   # Change to your full name.

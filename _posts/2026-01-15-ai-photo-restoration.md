@@ -10,6 +10,7 @@ media_subpath: /assets/posts/ai-photo-restoration
 image: RDS-cropped.jpeg
 include_header_image: false
 published: true
+juncture: true
 ---
 
 # Preserving the Past While Revitalizing It: AI and Photo Restoration
@@ -177,10 +178,14 @@ This single photograph demonstrates several broader points:
 
 In the next section, I’ll show side-by-side crops from the original scan, the Lightroom-cleaned version, and both AI restorations, and I’ll call out specific areas where AI helped—and where it needed restraint.
 
-{% include embed/image-compare.html 
-   before="RDS-before.jpg"
-   after="RDS-after.png"
-   caption="Ron's Dad"
-   position="25"
-   aspect="1"
+{% include embed/image-compare.html
+    before="RDS-before.jpg&by=-1.5"
+    after="RDS-after.png"
+    caption="Ron's Dad"
+    aspect="1"
+    position="50"
+    class="full"
 %}
+{: .full }
+
+---
