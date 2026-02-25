@@ -28,12 +28,7 @@ Build query string
 {%- assign qs = qs | append: "&aspect=" | append: include.aspect | uri_escape -%}
 {%- endif -%}
 
-{%- assign class = "image-compare" -%}
-{%- if include.class -%}
-{%- assign class = class | append: " " | append: include.class -%}
-{%- endif -%}
-
-<iframe id="{{ include.id }}"  class="{{ class }}" loading="lazy" title="Image comparison"
+<iframe id="{{ include.id }}" class="embed-image-compare" loading="lazy" title="Image comparison"
   allow="clipboard-write"
   src="{{ '/assets/components/image-compare.html' | relative_url }}?{{ qs }}"
   {% if include.width %} width="{{ include.width }}" {% endif %}
