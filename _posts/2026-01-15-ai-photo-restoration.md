@@ -10,7 +10,6 @@ media_subpath: /assets/posts/ai-photo-restoration
 image: RDS-cropped.jpeg
 include_header_image: false
 published: true
-juncture: true
 ---
 
 # Preserving the Past While Revitalizing It: AI and Photo Restoration

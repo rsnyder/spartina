@@ -63,21 +63,20 @@ permalink: /contact
     }
 </style>
 
-Contact me at [ron@snyderjr.com](mailto:ron@snyderjr.com) or use the form below.
+Contact me at [contact@spartina.io](mailto:contact@spartina.io) or use the form below.
 
-<form class="contact-form" action="https://formsubmit.co/ron@snyderjr.com" method="POST">
+<form class="contact-form" action="https://formsubmit.co/contact@spartina.io" method="POST">
   <label for="name">Name</label>
-  <input id="name" type="text" name="name" required>
+  <input id="name" type="text" name="name" autocomplete="name" required>
 
   <label for="email">Email</label>
-  <input id="email" type="email" name="email" required>
+  <input id="email" type="email" name="_replyto" autocomplete="email" required>
 
   <label for="message">Message</label>
   <textarea id="message" name="message" rows="6" required></textarea>
 
-  <!-- hidden options -->
-  <input type="hidden" name="_subject" value="Website contact form">
-  <input type="hidden" name="_next" value="https://www.spartina.io/thanks">
+  <input type="hidden" name="_subject" value="New Spartina website inquiry">
+  <input type="hidden" name="_next" value="https://www.spartina.io/thanks/">
   <input type="text" name="_honey" style="display:none">
   <input type="hidden" name="_captcha" value="false">
 
