@@ -70,13 +70,13 @@ Contact me at [contact@spartina.io](mailto:contact@spartina.io) or use the form 
   <input id="name" type="text" name="name" autocomplete="name" required>
 
   <label for="email">Email</label>
-  <input id="email" type="email" name="_replyto" autocomplete="email" required>
+  <input id="email" type="email" name="email" required>
 
   <label for="message">Message</label>
   <textarea id="message" name="message" rows="6" required></textarea>
 
   <input type="hidden" name="_subject" value="New Spartina website inquiry">
-  <input type="hidden" name="_next" value="https://www.spartina.io/thanks/">
+  <input type="hidden" name="_next" value="https://www.spartina.io/thanks">
   <input type="text" name="_honey" style="display:none">
   <input type="hidden" name="_captcha" value="false">
 
