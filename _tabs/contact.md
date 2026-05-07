@@ -77,6 +77,7 @@ Contact me at [contact@spartina.io](mailto:contact@spartina.io) or use the form 
   <input id="email" type="email" name="email" autocomplete="email" required>
   <label for="message">Message</label>
   <textarea id="message" name="message" rows="6" required></textarea>
+  <input type="hidden" name="subject" value="Spartina Contact">
 
   <!-- Honeypot field: hide with CSS if preferred -->
 
