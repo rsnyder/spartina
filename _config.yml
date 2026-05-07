@@ -172,6 +172,9 @@ collections:
   admin:
     output: true
     sort_by: order
+  services:
+    output: true
+    sort_by: order
 
 defaults:
   - scope:
@@ -199,7 +202,12 @@ defaults:
       type: admin
     values:
       layout: post 
-
+  - scope:
+      path: ""
+      type: services
+    values:
+      layout: post 
+      
 sass:
   style: compressed
 

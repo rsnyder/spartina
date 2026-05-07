@@ -2,85 +2,250 @@
 # the default layout is 'page'
 title: Services
 icon: fa-solid fa-screwdriver-wrench
-layout: page
+layout: services
 order: 7
 published: true
-permalink: /services
+permalink: /services/
+toc: true
 ---
 
 <style>
-    .contact-form {
-      max-width: 500px;
-      margin: 2rem auto;
-      padding: 1.5rem;
-      background: #fdfdfd;
-      border: 1px solid #e0e0e0;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-      font-family: system-ui, sans-serif;
-    }
-
-    .contact-form label {
-      display: block;
-      margin-bottom: 0.3rem;
-      font-weight: 600;
-      color: #333;
-    }
-
-    .contact-form input,
-    .contact-form textarea {
-      width: 100%;
-      padding: 0.7rem;
-      margin-bottom: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      font-size: 1rem;
-      box-sizing: border-box;
-    }
-
-    .contact-form input:focus,
-    .contact-form textarea:focus {
-      outline: none;
-      border-color: #3aa0a0; /* coastal teal accent */
-      box-shadow: 0 0 0 3px rgba(58,160,160,0.2);
-    }
-
-    .contact-form button {
-      display: inline-block;
-      background: #3aa0a0; /* coastal teal accent */
-      color: white;
-      font-size: 1rem;
-      font-weight: 600;
-      padding: 0.8rem 1.5rem;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background 0.2s ease-in-out;
-    }
-
-    .contact-form button:hover {
-      background: #317c7c;
-    }
-
-    .hidden-field {
-      position: absolute;
-      left: -5000px;
+  header {
+    display: none;
   }
+  .contact-wrap {
+    max-width: 760px;
+    margin: 2.5rem auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .contact-intro {
+    text-align: center;
+    margin-bottom: 1.75rem;
+  }
+
+  .contact-intro h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+    line-height: 1.2;
+    color: #1f3f3f;
+  }
+
+  .contact-intro p {
+    max-width: 600px;
+    margin: 0.4rem auto;
+    color: #555;
+    font-size: 1.05rem;
+    line-height: 1.55;
+  }
+
+  .contact-card {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 0;
+    background: #ffffff;
+    border: 1px solid #dfe8e8;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(31, 63, 63, 0.10);
+    overflow: hidden;
+  }
+
+  .contact-side {
+    background: linear-gradient(145deg, #2f8f8f, #1f5f5f);
+    color: white;
+    padding: 2rem;
+  }
+
+  .contact-side h4 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+  }
+
+  .contact-side p {
+    margin: 0 0 1rem;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.92);
+  }
+
+  .contact-side a {
+    color: white;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .contact-note {
+    margin-top: 1.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.28);
+    font-size: 0.95rem;
+  }
+
+  .contact-form {
+    padding: 2rem;
+    background: #fbfdfd;
+  }
+
+  .form-row {
+    margin-bottom: 1.15rem;
+  }
+
+  .contact-form label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-weight: 700;
+    color: #233;
+    font-size: 0.95rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.8rem 0.9rem;
+    border: 1px solid #cfdada;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background: white;
+  }
+
+  .contact-form textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    outline: none;
+    border-color: #3aa0a0;
+    box-shadow: 0 0 0 4px rgba(58, 160, 160, 0.18);
+  }
+
+  .contact-form button {
+    width: 100%;
+    background: #2f8f8f;
+    color: white;
+    font-size: 1.05rem;
+    font-weight: 700;
+    padding: 0.9rem 1.4rem;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+    box-shadow: 0 6px 14px rgba(47, 143, 143, 0.24);
+  }
+
+  .contact-form button:hover {
+    background: #267575;
+    transform: translateY(-1px);
+    box-shadow: 0 8px 18px rgba(47, 143, 143, 0.30);
+  }
+
+  .contact-form button:active {
+    transform: translateY(0);
+  }
+
+.form-help {
+    margin-top: 0.85rem;
+    color: #667;
+    font-size: 0.9rem !important;
+    line-height: 1.45;
+    text-align: center;
+  }
+
+  .hidden-field {
+    position: absolute;
+    left: -5000px;
+  }
+
+  @media (max-width: 720px) {
+    .contact-wrap {
+      margin: 1.5rem auto;
+    }
+
+    .contact-card {
+      grid-template-columns: 1fr;
+    }
+
+    .contact-side,
+    .contact-form {
+      padding: 1.5rem;
+    }
+
+    .contact-intro {
+      text-align: left;
+    }
+
+    .contact-intro h2 {
+      font-size: 1.5rem;
+    }
+  }
+
 </style>
 
-Contact me at [contact@spartina.io](mailto:contact@spartina.io) or use the form below.
+## Spartina Techical Services
+
+### Scanning
+
+For more information refer to the [Scanning](scanning) page
+
+### Tutoring
+
+For more information refer to the [Tutoring](tutoring) page
+
+### Website Development
+
+For more information refer to the [Website Development](website-development) page
+
+###
+{: .contact-wrap }
+
+### How can I help?
+{: .contact-intro}
+
+Have a question about Mac help, home technology, photo scanning, digital archiving, websites, or AI tutoring? Send a note and I’ll get back to you.
+
+###
+{: .contact-card}
+
+#### Spartina Technical Services
+{: .contact-side}
+
+Friendly, practical technology help for Sun City Hilton Head residents.
+
+You can also email me directly at [contact@spartina.io](mailto:contact@spartina.io)
+
+For the most useful reply, briefly describe what you need help with and the device, service, or project involved.
+{: .contact-note}
+
+#### 
 
 <form class="contact-form" action="https://spartina-contact-endpoint.netlify.app/.netlify/functions/contact" method="POST">
-  <label for="name">Name</label>
-  <input id="name" type="text" name="name" autocomplete="name" required>
-  <label for="email">Email</label>
-  <input id="email" type="email" name="email" autocomplete="email" required>
-  <label for="message">Message</label>
-  <textarea id="message" name="message" rows="6" required></textarea>
-  <input type="hidden" name="subject" value="Spartina Technical Services">
+    <div class="form-row">
+    <label for="name">Name</label>
+    <input id="name" type="text" name="name" autocomplete="name" required>
+    </div>
 
-  <!-- Honeypot field: hide with CSS if preferred -->
+    <div class="form-row">
+    <label for="email">Email</label>
+    <input id="email" type="email" name="email" autocomplete="email" required>
+    </div>
 
-  <input class="hidden-field" type="text" name="company" tabindex="-1" autocomplete="off">  <button type="submit">Send</button>
+    <div class="form-row">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+    </div>
 
+    <input type="hidden" name="subject" value="Spartina Contact">
+
+    <input class="hidden-field" type="text" name="company" tabindex="-1" autocomplete="off">
+
+    <button type="submit">Send message</button>
+
+    <p class="form-help">
+    I’ll use your email only to respond to your request.
+    </p>
 </form>

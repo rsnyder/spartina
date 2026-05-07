@@ -658,15 +658,15 @@ iframe.full {
 }
 
 
-iframe.small  {
+iframe.small {
     width: 33% !important;
 }
 
-iframe.medium  {
+iframe.medium {
     width: 50%;
 }
 
-iframe.large  {
+iframe.large {
     width: 75%;
 }
 
@@ -832,4 +832,13 @@ iframe[src^="https://cdn.knightlab.com/"] {
 
 .preview-img img {
     width: 100%;
+}
+
+h1:empty,
+h2:empty,
+h3:empty,
+h4:empty,
+h5:empty,
+h6:empty {
+    display: none;
 }
