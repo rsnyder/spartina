@@ -61,24 +61,25 @@ permalink: /contact
     .contact-form button:hover {
       background: #317c7c;
     }
+
+    .hidden-field {
+      position: absolute;
+      left: -5000px;
+  }
 </style>
 
 Contact me at [contact@spartina.io](mailto:contact@spartina.io) or use the form below.
 
-<form class="contact-form" action="https://formsubmit.co/contact@spartina.io" method="POST">
+<form class="contact-form" action="https://spartina-contact-endpoint.netlify.app/.netlify/functions/contact" method="POST">
   <label for="name">Name</label>
   <input id="name" type="text" name="name" autocomplete="name" required>
-
   <label for="email">Email</label>
-  <input id="email" type="email" name="email" required>
-
+  <input id="email" type="email" name="email" autocomplete="email" required>
   <label for="message">Message</label>
   <textarea id="message" name="message" rows="6" required></textarea>
 
-  <input type="hidden" name="_subject" value="New Spartina website inquiry">
-  <input type="hidden" name="_next" value="https://www.spartina.io/thanks">
-  <input type="text" name="_honey" style="display:none">
-  <input type="hidden" name="_captcha" value="false">
+  <!-- Honeypot field: hide with CSS if preferred -->
 
-  <button type="submit">Send</button>
+  <input class="hidden-field" type="text" name="company" tabindex="-1" autocomplete="off">  <button type="submit">Send</button>
+
 </form>
