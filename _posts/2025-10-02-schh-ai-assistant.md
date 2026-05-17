@@ -9,7 +9,7 @@ tags: [schh, ai, notebooklm]
 media_subpath: /assets/img
 image: ai-assistant.jpg
 published: true
-pin: true
+pin: false
 lightbox: false
 ---
 
@@ -105,7 +105,7 @@ Welcome to the **SCHH AI Assistant** — a friendly, experimental tool created t
 
 <p style="text-align: center; clear: both;">
 <a href="https://notebooklm.google.com/notebook/0f446377-e804-4d34-baad-9c1b5676c437" class="button" target="_blank">
-  <img src="{{ '/assets/img/notebooklm.svg' | relative_url }}" class="no-lightbox" alt="Start AI Chatbot" style="height: 24px; width: 24px; margin-right: 8px;">Open the SCHH AI Assistant
+  <img src="notebooklm.svg" class="no-lightbox" alt="Start AI Chatbot" style="height: 24px; width: 24px; margin-right: 8px;">Open the SCHH AI Assistant
 </a>
 </p>
 

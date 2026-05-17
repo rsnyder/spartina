@@ -188,6 +188,12 @@ toc: true
 
 ## Spartina Techical Services
 
+Spartina Technical Services offers friendly, practical technology help for residents of Sun City Hilton Head. The focus is on useful, right-sized support: getting devices working, solving everyday technical problems, preserving important photos and documents, and helping people make better use of today’s digital tools.
+
+Services are intentionally small-scale and personal. This is not a large repair shop or a managed IT company. It is local, hands-on help from someone with a long background in technology and an interest in making modern tools more approachable.
+
+Typical services include Mac setup and troubleshooting, basic home networking and peripheral setup, photo scanning and digital archiving, simple website creation, and one-on-one help with AI tools such as ChatGPT. The goal is to explain things clearly, avoid unnecessary complexity, and leave you with a setup or solution you can actually use.
+
 ### Scanning
 
 For more information refer to the [Scanning](scanning) page
