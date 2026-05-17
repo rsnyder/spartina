@@ -3,7 +3,7 @@
 title: Contact
 icon: fas fa-envelope
 layout: page
-order: 7
+order: 8
 published: true
 permalink: /contact
 ---

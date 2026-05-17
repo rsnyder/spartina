@@ -5,8 +5,15 @@ order: 2
 published: true
 permalink: /about
 layout: default
+media_subpath: /assets/img
 toc: false
 ---
+
+<style>
+    .small img {
+        width: 200px;
+    }
+</style>
 
 ## Welcome to Spartina
 
@@ -18,21 +25,12 @@ You'll find projects here ranging from practical applications to experimental ex
 
 ---
 
-## Featured Project: SCHH Commons AI Assistant
-
-One of my main projects is the **[SCHH Commons AI Assistant](/schh-ai-assistant)**, a specialized tool I built for Sun City Hilton Head residents. It demonstrates what's possible when you combine AI, information architecture, and user-centered design to solve real problems.
-
-The project centers on an **AI Assistant powered by NotebookLM**—Google's document-grounded AI tool—connected to a curated knowledge base of community documents. Instead of residents hunting through scattered PDFs, websites, and newsletters, they can simply ask questions in natural language and get accurate answers drawn from official sources.
-
-The **Knowledge Base** includes governance documents, lifestyle information, club resources, and other materials relevant to the community. It's continuously expanding based on resident feedback and needs.
-
-This is a working example of how AI can make information more accessible without replacing authoritative sources—it augments rather than replaces, making existing knowledge easier to find and understand. I'll be writing more about the technical implementation, challenges, and lessons learned as the project evolves.
-
----
-
 ## Background
 
-I'm **Ron Snyder**, a veteran and technologist with a background that spans defense work, non-profit research, and community-focused projects. I spent ten years in the U.S. Air Force, twenty years in the defense industry, and nearly two decades in academic R&D—leading AI and information projects that helped institutions share knowledge more effectively.
+![Ron Headshot](/assets/img/Ron_headshot.jpg)
+{: .left .small .shadow }
+
+ I'm **Ron Snyder**, a veteran and technologist with a background that spans defense work, non-profit research, and community-focused projects. I spent nine years in the U.S. Air Force, twenty years in the defense industry, and nearly two decades in academic R&D—leading AI and information projects that helped institutions share knowledge more effectively.
 
 Now, in what some might call retirement, I'm focused on building things that interest me and solving problems I encounter in my own community. The skills are the same—research, development, systems thinking—but the application is more personal and immediate.
 

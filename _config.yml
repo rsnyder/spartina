@@ -149,7 +149,15 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 12
+pagination:
+  enabled: true
+  per_page: 12
+  permalink: '/page:num/'
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
 
 # ------------ The following options are not recommended to be modified ------------------
 

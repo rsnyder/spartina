@@ -10,6 +10,8 @@ media_subpath: /assets/image-compositing
 media_subpath: /assets/posts/image-compositing
 image: thumbnail.png
 include_header_image: true
+storykit:
+  group_embeds: false
 published: true
 ---
 
