@@ -79,8 +79,10 @@ Contact me at [contact@spartina.io](mailto:contact@spartina.io) or use the form 
   <textarea id="message" name="message" rows="6" required></textarea>
   <input type="hidden" name="subject" value="Spartina Contact">
 
-  <!-- Honeypot field: hide with CSS if preferred -->
+  <!-- Honeypot: bots fill it, humans never see it. The name must stay something
+       browser autofill does not recognise (never "company"/"organization"). -->
+  <div class="hidden-field" aria-hidden="true"><input type="text" name="spartina_hp" tabindex="-1" autocomplete="off"></div>
 
-  <input class="hidden-field" type="text" name="company" tabindex="-1" autocomplete="off">  <button type="submit">Send</button>
+  <button type="submit">Send</button>
 
 </form>

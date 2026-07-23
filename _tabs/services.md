@@ -2,7 +2,7 @@
 # the default layout is 'page'
 title: Services
 icon: fa-solid fa-screwdriver-wrench
-layout: services
+layout: default
 order: 7
 published: true
 permalink: /services/
@@ -194,17 +194,11 @@ Services are intentionally small-scale and personal. This is not a large repair 
 
 Typical services include Mac setup and troubleshooting, basic home networking and peripheral setup, photo scanning and digital archiving, simple website creation, and one-on-one help with AI tools such as ChatGPT. The goal is to explain things clearly, avoid unnecessary complexity, and leave you with a setup or solution you can actually use.
 
-### Scanning
-
-For more information refer to the [Scanning](scanning) page
-
-### Tutoring
-
-For more information refer to the [Tutoring](tutoring) page
-
-### Website Development
-
-For more information refer to the [Website Development](website-development) page
+<div class="post-index flex-grow-1 px-xl-1 view-list">
+  {% for post in site.services %}
+    {% include post_index_item.html post=post %}
+  {% endfor %}
+</div>
 
 ###
 {: .contact-wrap }
@@ -247,7 +241,9 @@ For the most useful reply, briefly describe what you need help with and the devi
 
     <input type="hidden" name="subject" value="Spartina Contact">
 
-    <input class="hidden-field" type="text" name="company" tabindex="-1" autocomplete="off">
+    <!-- Honeypot: bots fill it, humans never see it. The name must stay something
+         browser autofill does not recognise (never "company"/"organization"). -->
+    <div class="hidden-field" aria-hidden="true"><input type="text" name="spartina_hp" tabindex="-1" autocomplete="off"></div>
 
     <button type="submit">Send message</button>
 
