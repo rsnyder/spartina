@@ -2,7 +2,7 @@
 # the default layout is 'page'
 title: Services
 icon: fa-solid fa-screwdriver-wrench
-layout: default
+layout: services
 order: 7
 published: true
 permalink: /services/
@@ -194,11 +194,17 @@ Services are intentionally small-scale and personal. This is not a large repair 
 
 Typical services include Mac setup and troubleshooting, basic home networking and peripheral setup, photo scanning and digital archiving, simple website creation, and one-on-one help with AI tools such as ChatGPT. The goal is to explain things clearly, avoid unnecessary complexity, and leave you with a setup or solution you can actually use.
 
-<div class="post-index flex-grow-1 px-xl-1 view-list">
-  {% for post in site.services %}
-    {% include post_index_item.html post=post %}
-  {% endfor %}
-</div>
+### Scanning
+
+For more information refer to the [Scanning](scanning) page
+
+### Tutoring
+
+For more information refer to the [Tutoring](tutoring) page
+
+### Website Development
+
+For more information refer to the [Website Development](website-development) page
 
 ###
 {: .contact-wrap }
